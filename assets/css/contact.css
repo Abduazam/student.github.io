@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+.d-none{
+    display: none !important;
+}
 
 .container {
     width: 84.4788% !important;
@@ -171,7 +174,6 @@ header .btn_register {
 header .header_badge1:focus {
     background: rgba(0, 45, 66, 0.1);
 }
-
 header .header_badge2:focus {
     background: rgba(0, 45, 66, 0.1);
 }
@@ -186,7 +188,6 @@ header .sear_ish {
     top: 84px;
     left: 34%;
     z-index: 3;
-    display: none;
 }
 
 header .sear_ish .parent {
@@ -273,27 +274,15 @@ header .sear_toplam .child1 {
     padding-top: 10px;
     margin-right: 13px;
 }
-
 header .sear_toplam .child2 {
     padding-top: 10px;
     margin-right: 40px;
     padding-left: 9px;
     border-left: 1px solid #D9DFE3;
 }
-
-header .child1 img {
+header .child1 img{
     width: 16px;
     height: 16px;
-}
-
-header .sear_toplam .child1 .active {
-    width: 278px;
-    height: 62px;
-    background: #E6EBED;
-    border-radius: 12px;
-    padding: 10px 11px 12px 21px;
-    display: flex;
-    justify-content: space-between;
 }
 
 header .sear_toplam .child1 .element {
@@ -303,8 +292,14 @@ header .sear_toplam .child1 .element {
     padding: 10px 11px 12px 21px;
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
 }
-
+header .sear_toplam .child1 .element:hover{
+    background: #E6EBED;
+}
+header .sear_toplam .child1 .element:hover .text__one span{
+    background: #FFFFFF;
+}
 header .sear_toplam .child1 .element .text__one {
     font-family: 'DM Sans', sans-serif;
     font-style: normal;
@@ -315,20 +310,7 @@ header .sear_toplam .child1 .element .text__one {
     margin-bottom: 0;
 }
 
-header .sear_toplam .child1 .element .text__one .active_span {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 13px;
-    padding: 3px 5px;
-    background: #FFFFFF;
-    border-radius: 25px;
-    color: #012E42;
-
-}
-
-header .sear_toplam .child1 .element .text__one span {
+header .sear_toplam .child1 .element .text__one span{
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -339,8 +321,7 @@ header .sear_toplam .child1 .element .text__one span {
     border-radius: 25px;
     color: #012E42;
 }
-
-header .search {
+header .search{
     width: 610px;
     height: 74px;
     background: #FFFFFF;
@@ -368,7 +349,6 @@ header .search .parent {
 header .search .parent .child {
     display: flex;
 }
-
 header .search .parent .child .text_kasb {
     font-family: 'DM Sans', sans-serif;
     font-style: normal;
@@ -379,6 +359,7 @@ header .search .parent .child .text_kasb {
     margin-left: 16px;
     color: #002D42;
     height: 80%;
+    width: 27.3em;
     border: none;
     outline: none;
 }
@@ -881,7 +862,6 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         top: 84px;
         left: 27%;
         z-index: 3;
-        display: none;
     }
 
     header .sear_toplam {
@@ -895,7 +875,6 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         top: 160px;
         left: 14%;
         z-index: 3;
-        display: none;
     }
 
     header .search {
@@ -908,7 +887,6 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         top: 84px;
         left: 27%;
         z-index: 3;
-        display: none;
     }
 
     .contact .parent .left {
