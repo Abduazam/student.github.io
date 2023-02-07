@@ -612,14 +612,41 @@ header .search .parent .child .btn_result {
     color: #002D42;
     height: 48px;
     opacity: 0.3;
+    resize: none;
 }
 
+.contact .input_one::placeholder {
+    font-family: 'DM Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    margin-bottom: 0;
+
+    color: #002D42;
+
+    opacity: 0.3;
+}
+.contact .input_two ::placeholder {
+    font-family: 'DM Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    margin-bottom: 0;
+    border: none;
+    color: #002D42;
+
+    opacity: 0.3;
+}
 .contact .parent .left .dalee {
     background: #002D42;
     border-radius: 5px;
     width: 270px;
     height: 60px;
-    font-family: 'DM Sans',sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -631,11 +658,13 @@ header .search .parent .child .btn_result {
     color: #FFFFFF;
 
 }
-.contact .parent .right{
+
+.contact .parent .right {
     width: 45%;
     height: 697px;
 }
-.contact .parent .right iframe{
+
+.contact .parent .right .iframe {
     width: 100% !important;
     height: 100% !important;
 }
@@ -881,21 +910,25 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         z-index: 3;
         display: none;
     }
+
     .contact .parent .left {
         width: 52.5%;
         height: 100%;
         padding: 50px 0px 54px 20px;
     }
+
     .contact .parent .left .parent_contact .child1 {
         padding: 17px 15px 22px 15px;
         margin-bottom: 0;
     }
+
     .contact .parent .left .parent_contact .child2 {
         padding: 17px 15px 22px 15px;
         margin-bottom: 0;
         border-left: 1px solid #E6EAED;
         border-right: 1px solid #E6EAED;
     }
+
     .contact .parent .left .parent_contact .child3 {
         padding: 17px 0px 22px 15px;
         margin-bottom: 0;
