@@ -1,0 +1,651 @@
+.profile .text_p{
+    font-family: 'DM Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #002D42;
+}
+.profile .top{
+    margin-top: 28px;
+}
+.profile .parent{
+    margin-top: 23px;
+    display: flex;
+}
+.profile .image{
+    position: relative;
+}
+.profile .icon{
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 20px -6px rgba(209, 21, 27, 0.2);
+    border-radius: 50%;
+    position: absolute;
+    top: 165px;
+    left: 120px;
+}
+.profile .left{
+    width: 321px;
+    height: 789px;
+    border: 1px solid #EEEEEE;
+    border-radius: 12px;
+
+}
+.profile .container {
+    width: 84.4788% !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.profile .image_main{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.profile .child{
+    margin-top: 9px;
+}
+.profile .text_name{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #002D42;
+    margin-left: 30px;
+    margin-top: 9px;
+}
+.profile .text_profile2{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #002D42;
+
+}
+.profile .input_profile{
+    width: 245px;
+    height: 48px;
+    background: #E6EAEC;
+    border-radius: 53px;
+    padding-left: 24px;
+    border: none;
+    padding-top: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    margin-left: 21px;
+
+}
+.profile .text_resume{
+    margin-left: 45px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #002D42;
+    margin-bottom: 24px;
+}
+.profile .text_resume1{
+    margin-left: 45px;
+
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #002D42;
+}
+.profile .a_viyti{
+    font-family: 'Inter',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-decoration: none;
+color: #002D42;
+margin-top: 310px;
+margin-left: 45px;
+
+}
+.profile .img_img{
+    margin-right: 7px;
+}
+.profile .right{
+    width: calc(100% - 321px);
+    height: 789px;
+    border: 1px solid #EEEEEE;
+    border-radius: 12px;
+    margin-left: 24px;
+    padding-top: 34px;
+    padding-left: 40px;
+}
+.profile .text_profiltop{
+    font-family: 'Inter',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #002D42;
+margin-bottom: 20px;
+}
+.profile .parent2{
+    display: flex;
+    margin-bottom: 12px;
+}
+.profile .child2{
+    width: 286px;
+    height: 66px;
+    background: #EDF0F2;
+    border-radius: 7px;
+    margin-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+
+}
+.profile .text_den{
+    font-family: 'DM Sans',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+color: #002D42;
+margin: 0px;
+
+}
+.profile .text_kun{
+    font-family: 'DM Sans',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+color: #002D42;
+opacity: 0.3;
+margin: 0px;
+}
+.profile .btn_class{
+    width: 202px;
+height: 62px;
+font-family: 'Inter',sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+background: #002D42;
+border-radius: 12px;
+border: none;
+margin-top: 16px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.container {
+    width: 84.4788% !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+header {
+    width: 100%;
+
+}
+
+header .parent {
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.dropbtn {
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #002D42;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #002D42;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+header .child {
+    display: flex;
+    height: 74px;
+    align-items: center;
+}
+
+header .text_one {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    margin-bottom: 0;
+    padding-left: 30px;
+    color: #002D42;
+}
+
+header .logo {
+    padding-right: 11px;
+    width: 74px;
+    height: 74px;
+}
+
+header .badge {
+    border: 1px solid rgba(0, 45, 66, 0.07);
+    border-radius: 1000px;
+    padding: 4px;
+    background-color: transparent;
+    height: 53px;
+    margin-top: 11px;
+    gap: 5px;
+}
+
+header .header_badge {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    padding: 12px 16px;
+    margin-bottom: 0;
+    color: #002D42;
+    background: rgba(0, 45, 66, 0.04);
+    border-radius: 10000px;
+    border: none;
+
+}
+
+header .btn_language {
+    width: 114px;
+    height: 46px;
+    border: 1px solid rgba(0, 45, 66, 0.2);
+    border-radius: 1000px;
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 0;
+    margin-right: 5px;
+    color: #002D42;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+header .btn_language span {
+    margin-right: 10px;
+}
+
+header .btn_register {
+    background: rgba(0, 45, 66, 0.07);
+    border-radius: 1000px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    border: none;
+    color: #002D42;
+    padding: 12px 31px;
+
+
+}
+
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: inherit !important;
+    }
+}
+
+header .header_badge1:focus {
+    background: rgba(0, 45, 66, 0.1);
+}
+
+header .header_badge2:focus {
+    background: rgba(0, 45, 66, 0.1);
+}
+
+header .sear_ish {
+    width: 610px;
+    height: 74px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    padding: 5px;
+    position: absolute;
+    top: 84px;
+    left: 34%;
+    z-index: 3;
+}
+
+header .sear_ish .parent {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 45, 66, 0.1);
+    border-radius: 100px;
+}
+
+header .sear_ish .parent .child {
+    display: flex;
+}
+
+header .sear_ish .parent .child .btn_yonalish {
+    background: rgba(0, 45, 66, 0.05);
+    border-radius: 100px;
+    padding: 17px 21px 16px 21px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    margin-bottom: 0;
+    border: none;
+    color: #002D42;
+}
+header .sear_ish .parent .child .btn_yonalish span {
+    margin-left: 12px;
+    margin-top: 2.5px;
+}
+
+header .sear_ish .parent .child .text_kasb {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    margin-left: 16px;
+    color: #002D42;
+    height: 80%;
+    border: none;
+    outline: none;
+}
+
+header .sear_ish .parent .child .btn_result {
+    background: #C3A182;
+    border-radius: 100px;
+    width: 125px;
+    height: 54px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+header .sear_toplam {
+    width: 990px;
+    min-height: 564px;
+    padding: 21px 29px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 54px rgba(0, 0, 0, 0.11);
+    border-radius: 20px;
+    position: absolute;
+    top: 160px;
+    left: 25%;
+    z-index: 3;
+    display: none;
+}
+
+header .sear_toplam .child1 {
+    display: block;
+    padding-top: 10px;
+    margin-right: 13px;
+}
+
+header .sear_toplam .child2 {
+    padding-top: 10px;
+    margin-right: 40px;
+    padding-left: 9px;
+    border-left: 1px solid #D9DFE3;
+}
+
+header .child1 img {
+    width: 16px;
+    height: 16px;
+}
+
+header .sear_toplam .child1 .element {
+    width: 278px;
+    height: 62px;
+    border-radius: 12px;
+    padding: 10px 11px 12px 21px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+header .sear_toplam .child1 .element:hover {
+    background: #E6EBED;
+}
+
+header .sear_toplam .child1 .element:hover .text__one span {
+    background: #FFFFFF;
+}
+
+header .sear_toplam .child1 .element .text__one {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    color: #012E42;
+    margin-bottom: 0;
+}
+
+header .sear_toplam .child1 .element .text__one span {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    padding: 3px 5px;
+    background: #E6EAEC;
+    border-radius: 25px;
+    color: #012E42;
+}
+
+header .search {
+    width: 610px;
+    height: 74px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    padding: 5px;
+    position: absolute;
+    top: 84px;
+    left: 34%;
+    z-index: 3;
+    display: none;
+}
+
+header .search .parent {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 45, 66, 0.1);
+    border-radius: 100px;
+}
+
+header .search .parent .child {
+    display: flex;
+}
+
+header .search .parent .child .text_kasb {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    margin-left: 16px;
+    color: #002D42;
+    height: 80%;
+    width: 27.3em;
+    border: none;
+    outline: none;
+}
+
+header .search .parent .child .btn_result {
+    background: #C3A182;
+    border-radius: 100px;
+    width: 125px;
+    height: 54px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+header .profile_logo{
+    width: 66px;
+    height: 66px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+
+    .profile .container {
+        max-width: 1240px !important;
+        width: 100% !important;
+    }
+    header .container {
+        max-width: 1240px !important;
+        width: 100% !important;
+    }
+    header .sear_ish {
+        width: 610px;
+        height: 74px;
+        background: #FFFFFF;
+        border-radius: 100px;
+        padding: 5px;
+        position: absolute;
+        top: 84px;
+        left: 27%;
+        z-index: 3;
+
+    }
+
+    header .sear_toplam {
+        width: 990px;
+        min-height: 564px;
+        padding: 21px 29px;
+        background: #FFFFFF;
+        box-shadow: 0px 24px 54px rgb(0 0 0 / 11%);
+        border-radius: 20px;
+        position: absolute;
+        top: 160px;
+        left: 14%;
+        z-index: 3;
+
+    }
+
+
+
+    header .search {
+        width: 610px;
+        height: 74px;
+        background: #FFFFFF;
+        border-radius: 100px;
+        padding: 5px;
+        position: absolute;
+        top: 84px;
+        left: 27%;
+        z-index: 3;
+
+    }
+
+   
+
+
+
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 990px !important;
+        margin: 1.75rem auto;
+    }
+}
