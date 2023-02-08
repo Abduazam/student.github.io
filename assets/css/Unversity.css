@@ -886,7 +886,14 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         margin-bottom: 48px;
         color: #002D42;
     }
-
+    .body .footer_2 {
+        border-top: 1px solid;
+        display: flex;
+        margin-top: 42px;
+        padding-top: 21.32px;
+        padding-bottom: 21.32px;
+    }
+    
 
 }
 

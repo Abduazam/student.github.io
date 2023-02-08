@@ -40,7 +40,13 @@
     margin-left: 71px;
     margin-bottom: 200px;
 }
-
+.faq_href{
+    color: #002D42;
+    text-decoration: none;
+}
+.faq_href:hover{
+    color: #002D42;
+}
 .img_student {
     margin-left: 190px;
 }
@@ -205,7 +211,20 @@
     color: #C3A182;
     margin-left: 11px;
 }
-
+.text_zabil_href{
+    color: #C3A182;
+    text-decoration: none;
+}
+.text_zabil_href:hover{
+    color: #C3A182;
+}
+.text_accaunt_href{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.text_accaunt_href:hover{
+    color: #FFFFFF;
+}
 @media screen and(min-width: 1600px) and (max-width: 2000px) {
     .img_student {
         margin-left: 290px;

@@ -344,6 +344,11 @@ input[type=number] {
     text-align: center;
     margin-top: 30px;
     color: #002D42;
+    transition: .2s linear;
+}
+.body .btn_podat:hover{
+    color: #FFFFFF;
+    background-color: #002D42;
 }
 
 .body .a_href {
@@ -1070,7 +1075,16 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         z-index: 3;
 
     }
-
+    .body .text_state {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #002D42;
+        margin-left: 8.33px;
+        margin-top: 15px;
+    }
    
 
 
