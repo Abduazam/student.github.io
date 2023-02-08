@@ -1912,7 +1912,7 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         min-height: 623px;
         background: #F2F5F6;
         border-radius: 12px;
-        padding: 71.5px 88px;
+        padding: 71.5px 97px;
         overflow: hidden;
     }
     .vacansi .owl-carousel .owl-stage {
@@ -1921,7 +1921,7 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         touch-action: manipulation;
         height: 100%;
         display: flex;
-        gap: 24px;
+        gap: 16px;
     }
 }
 @media (min-width: 576px){
