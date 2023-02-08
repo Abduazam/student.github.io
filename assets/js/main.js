@@ -248,9 +248,11 @@ let search = document.querySelector(".search");
 badge1.addEventListener('click', () => {
     let first_close = sear_ish.classList.contains("d-none");
     let second_close = sear_toplam.classList.contains("d-none");
-
-    if(first_close && second_close) {
+    
+    if (first_close && second_close) {
         sear_ish.classList.remove("d-none");
+        search.classList.add("d-none");
+        
         console.log("Ochildi");
     } else {
         console.log("Yopildi");
@@ -260,7 +262,7 @@ badge1.addEventListener('click', () => {
 })
 
 btn_yonalish.addEventListener('click', () => {
-    if(sear_toplam.classList.contains("d-none")) {
+    if (sear_toplam.classList.contains("d-none")) {
         sear_toplam.classList.remove("d-none");
         sear_toplam.style.display = "flex";
     } else {
@@ -268,8 +270,11 @@ btn_yonalish.addEventListener('click', () => {
     }
 })
 header_badge2.addEventListener('click', () => {
-    if(search.classList.contains("d-none")) {
+    if (search.classList.contains("d-none")) {
         search.classList.remove("d-none");
+        sear_toplam.classList.add("d-none");
+        sear_ish.classList.add("d-none");
+        
         search.style.display = "flex";
     } else {
         search.classList.add("d-none");

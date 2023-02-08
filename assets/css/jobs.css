@@ -3,7 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
-.d-none{
+
+.d-none {
     display: none !important;
 }
 
@@ -174,6 +175,7 @@ header .btn_register {
 header .header_badge1:focus {
     background: rgba(0, 45, 66, 0.1);
 }
+
 header .header_badge2:focus {
     background: rgba(0, 45, 66, 0.1);
 }
@@ -274,13 +276,15 @@ header .sear_toplam .child1 {
     padding-top: 10px;
     margin-right: 13px;
 }
+
 header .sear_toplam .child2 {
     padding-top: 10px;
     margin-right: 40px;
     padding-left: 9px;
     border-left: 1px solid #D9DFE3;
 }
-header .child1 img{
+
+header .child1 img {
     width: 16px;
     height: 16px;
 }
@@ -294,12 +298,15 @@ header .sear_toplam .child1 .element {
     justify-content: space-between;
     text-decoration: none;
 }
-header .sear_toplam .child1 .element:hover{
+
+header .sear_toplam .child1 .element:hover {
     background: #E6EBED;
 }
-header .sear_toplam .child1 .element:hover .text__one span{
+
+header .sear_toplam .child1 .element:hover .text__one span {
     background: #FFFFFF;
 }
+
 header .sear_toplam .child1 .element .text__one {
     font-family: 'DM Sans', sans-serif;
     font-style: normal;
@@ -310,7 +317,7 @@ header .sear_toplam .child1 .element .text__one {
     margin-bottom: 0;
 }
 
-header .sear_toplam .child1 .element .text__one span{
+header .sear_toplam .child1 .element .text__one span {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -321,7 +328,8 @@ header .sear_toplam .child1 .element .text__one span{
     border-radius: 25px;
     color: #012E42;
 }
-header .search{
+
+header .search {
     width: 610px;
     height: 74px;
     background: #FFFFFF;
@@ -349,6 +357,7 @@ header .search .parent {
 header .search .parent .child {
     display: flex;
 }
+
 header .search .parent .child .text_kasb {
     font-family: 'DM Sans', sans-serif;
     font-style: normal;
@@ -378,6 +387,7 @@ header .search .parent .child .btn_result {
     color: #FFFFFF;
     border: none;
 }
+
 /* JOBS */
 .jobs {
     width: 100%;
@@ -529,8 +539,8 @@ header .search .parent .child .btn_result {
 
 }
 
-.range-price input {
-    width: 47px;
+.range-price .input2 {
+    width: 32px;
     background-color: transparent;
     border: none;
     outline: none;
@@ -545,6 +555,31 @@ header .search .parent .child .btn_result {
     color: #002D42;
 }
 
+.jobs label {
+    font-family: 'DM Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height */
+    margin-bottom: 0;
+
+    color: #002D42;
+}
+
+.range-price .input1 {
+    width: 27px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 17px;
+    color: #002D42;
+}
+
 .range-price .input {
     font-family: 'DM Sans', sans-serif;
     font-style: normal;
@@ -552,7 +587,7 @@ header .search .parent .child .btn_result {
     font-size: 13px;
     line-height: 17px;
     /* identical to box height */
-    margin: 0px 23px 0px 0px;
+    margin: 0px 10px 0px 10px;
 
     color: #002D42;
 }
@@ -646,6 +681,9 @@ header .search .parent .child .btn_result {
 .jobs .parent_threee .parent_cards .child_cards:hover {
     border: 2px solid #C3A182;
 }
+.jobs .parent_threee .parent_cards .active{
+    border: 2px solid #C3A182;
+}
 
 .jobs .parent_threee .parent_cards .child_cards .flex_card {
     display: flex;
@@ -674,6 +712,16 @@ header .search .parent .child .btn_result {
     color: #002D42;
     margin-left: 7px;
     opacity: 0.4;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
 }
 
 .jobs .parent_threee .parent_cards .child_cards .text_big {
@@ -1001,12 +1049,13 @@ header .search .parent .child .btn_result {
     color: #002D42;
 
 }
-.jobs .left .bolwe{
+
+.jobs .left .bolwe {
     width: 100%;
     height: 50px;
     background: #FFFFFF;
     border-radius: 9px;
-    font-family: 'DM Sans',sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -1229,7 +1278,7 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         top: 84px;
         left: 27%;
         z-index: 3;
-        
+
     }
 
     header .sear_toplam {
@@ -1243,7 +1292,7 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         top: 160px;
         left: 14%;
         z-index: 3;
-       
+
     }
 
     header .search {
@@ -1256,8 +1305,9 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         top: 84px;
         left: 27%;
         z-index: 3;
-        
+
     }
+
     .jobs .right .text_description {
         font-family: 'DM Sans', sans-serif;
         font-style: normal;
@@ -1268,12 +1318,22 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         width: 550px;
         color: #002D42;
     }
+
     .jobs .right .flex_social {
         width: 550px;
         display: flex;
         justify-content: space-between;
     }
-    
+    .jobs .right .text_social {
+        font-family: 'DM Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 19px;
+        margin-top: 3px;
+        margin-bottom: 0;
+        color: #002D42;
+    }
 
 }
 
