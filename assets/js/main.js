@@ -1,7 +1,7 @@
 const nextIcon = '<img src="./assets/images/right_icon.svg" alt="right">';
 const prevIcon = '<img src="./assets/images/left_icon.svg" alt="left">';
 
-$('.owl-carousel').owlCarousel({
+$('.vacansi .owl-carousel').owlCarousel({
   loop:true,
   autoplay: true,
   nav: true,
@@ -21,6 +21,26 @@ $('.owl-carousel').owlCarousel({
       }
   }
 })
+$('.top_univer .owl-carousel').owlCarousel({
+    loop:true,
+    autoplay: true,
+    nav: true,
+    navText: [
+    prevIcon,
+    nextIcon
+  ],
+    responsive:{
+        0:{
+            items:2
+        },
+        1000:{
+            items:2
+        },
+        1500:{
+            items:2
+        }
+    }
+  })
 
 
 let badge1 = document.querySelector(".header_badge1");

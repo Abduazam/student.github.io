@@ -668,6 +668,7 @@ header .search .parent .child .btn_result {
     height: 240px !important;
     background: #FFFFFF !important;
     border-radius: 12px !important;
+    margin-right: 17px;
     padding: 25px !important;
 }
 
@@ -693,8 +694,6 @@ header .search .parent .child .btn_result {
     -ms-touch-action: pan-Y;
     touch-action: manipulation;
     height: 100%;
-    display: flex;
-    gap: 24px;
 }
 
 .vacansi .owl-theme .owl-dots {
@@ -966,8 +965,8 @@ header .search .parent .child .btn_result {
 }
 
 .top_univer .owl-item {
-    width: 415px !important;
-    height: 403px !important;
+    width: 561px !important;
+    height: 446px !important;
 }
 
 .top_univer .item {
@@ -976,11 +975,15 @@ header .search .parent .child .btn_result {
     align-items: center;
     border-radius: 100%;
     transition: transform 0.2s;
-    width: 437px !important;
-    height: 437px !important;
+    width: 100% !important;
+    height: 100%;
     border: 1px solid rgba(0, 45, 66, 0.2) !important;
     padding: 35px !important;
     margin-right: 0 !important;
+}
+.top_univer .owl-item {
+    width: 561.4px !important;
+    height: 561.4px!important;
 }
 
 .top_univer .carousel .owl-container {
@@ -1888,8 +1891,8 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         align-items: center;
         border-radius: 100%;
         transition: transform 0.2s;
-        width: 367px !important;
-        height: 367px !important;
+        width: 364px !important;
+        height: 364px !important;
         border: 1px solid rgba(0, 45, 66, 0.2) !important;
         padding: 35px !important;
         margin-right: 0 !important;
@@ -1901,11 +1904,12 @@ footer .parent_two .parent_texts .right_texts .text_three span {
     }
     .vacansi .owl-item {
         transition: transform 0.2s;
-        width: 275px !important;
+        width: 250px !important;
         height: 228px !important;
         background: #FFFFFF !important;
         border-radius: 12px !important;
         padding: 25px !important;
+        margin-right: 12px;
     }
     .vacansi .parent {
         width: 100%;
@@ -1920,12 +1924,10 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         -ms-touch-action: pan-Y;
         touch-action: manipulation;
         height: 100%;
-        display: flex;
-        gap: 16px;
     }
     .top_univer .owl-item {
-        width: 367px !important;
-        height: 367px !important;
+        width: 364px !important;
+        height: 364px !important;
     }
 }
 @media (min-width: 576px){
