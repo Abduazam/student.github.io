@@ -7,6 +7,24 @@
 .d-none {
     display: none !important;
 }
+.site_up{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: #002D42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+}
+.site_up a{
+    color: #fff;
+}
+.site_up a:hover{
+    color: #fff;
+}
 
 .container {
     width: 84.4788% !important;
@@ -16,6 +34,10 @@
 
 header {
     width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 9999;
 
 }
 
@@ -395,6 +417,7 @@ header .search .parent .child .btn_result {
     padding-bottom: 83px;
     margin-bottom: 63px;
     background-color: #F5F5F5;
+    margin-top: 114px;  
 }
 
 .detailed_info .text_one {

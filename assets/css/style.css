@@ -3,7 +3,26 @@
     margin: 0;
     box-sizing: border-box;
 }
-.d-none{
+
+.site_up{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: #002D42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+}
+.site_up a{
+    color: #fff;
+}
+.site_up a:hover{
+    color: #fff;
+}
+.d-none {
     display: none !important;
 }
 
@@ -15,7 +34,11 @@
 
 header {
     width: 100%;
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 99999;
 }
 
 header .parent {
@@ -26,17 +49,17 @@ header .parent {
 }
 
 
-.dropbtn {
+header .dropbtn {
     border: none;
     cursor: pointer;
 }
 
-.dropdown {
+header .dropdown {
     position: relative;
     display: inline-block;
 }
 
-.dropdown-content {
+header .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -45,7 +68,7 @@ header .parent {
     z-index: 1;
 }
 
-.dropdown-content a {
+header .dropdown-content a {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -59,12 +82,12 @@ header .parent {
 
 }
 
-.dropdown-content a:hover {
+header .dropdown-content a:hover {
     background-color: #f1f1f1;
     color: #002D42;
 }
 
-.dropdown:hover .dropdown-content {
+header .dropdown:hover .dropdown-content {
     display: block;
 }
 
@@ -174,6 +197,7 @@ header .btn_register {
 header .header_badge1:focus {
     background: rgba(0, 45, 66, 0.1);
 }
+
 header .header_badge2:focus {
     background: rgba(0, 45, 66, 0.1);
 }
@@ -274,13 +298,15 @@ header .sear_toplam .child1 {
     padding-top: 10px;
     margin-right: 13px;
 }
+
 header .sear_toplam .child2 {
     padding-top: 10px;
     margin-right: 40px;
     padding-left: 9px;
     border-left: 1px solid #D9DFE3;
 }
-header .child1 img{
+
+header .child1 img {
     width: 16px;
     height: 16px;
 }
@@ -294,12 +320,15 @@ header .sear_toplam .child1 .element {
     justify-content: space-between;
     text-decoration: none;
 }
-header .sear_toplam .child1 .element:hover{
+
+header .sear_toplam .child1 .element:hover {
     background: #E6EBED;
 }
-header .sear_toplam .child1 .element:hover .text__one span{
+
+header .sear_toplam .child1 .element:hover .text__one span {
     background: #FFFFFF;
 }
+
 header .sear_toplam .child1 .element .text__one {
     font-family: 'DM Sans', sans-serif;
     font-style: normal;
@@ -310,7 +339,7 @@ header .sear_toplam .child1 .element .text__one {
     margin-bottom: 0;
 }
 
-header .sear_toplam .child1 .element .text__one span{
+header .sear_toplam .child1 .element .text__one span {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -321,7 +350,8 @@ header .sear_toplam .child1 .element .text__one span{
     border-radius: 25px;
     color: #012E42;
 }
-header .search{
+
+header .search {
     width: 610px;
     height: 74px;
     background: #FFFFFF;
@@ -349,6 +379,7 @@ header .search .parent {
 header .search .parent .child {
     display: flex;
 }
+
 header .search .parent .child .text_kasb {
     font-family: 'DM Sans', sans-serif;
     font-style: normal;
@@ -383,7 +414,7 @@ header .search .parent .child .btn_result {
 .main {
     width: 100%;
     margin-bottom: 30px;
-
+    margin-top: 114px;
 }
 
 .main .parent {
@@ -981,9 +1012,10 @@ header .search .parent .child .btn_result {
     padding: 35px !important;
     margin-right: 0 !important;
 }
+
 .top_univer .owl-item {
     width: 561.4px !important;
-    height: 561.4px!important;
+    height: 561.4px !important;
 }
 
 .top_univer .carousel .owl-container {
@@ -1182,14 +1214,13 @@ header .search .parent .child .btn_result {
     gap: 44px;
 }
 
-
 .select-box {
     position: relative;
     display: block;
     width: 160px;
     font-family: "DM Sans", sans-serif;
     background: #FFFFFF;
-    border-radius: 100%;
+    border-radius: 1000px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1219,9 +1250,7 @@ header .search .parent .child .btn_result {
     cursor: pointer;
 }
 
-.select-box__current:focus .select-box__icon {
-    transform: translateY(-50%) rotate(180deg);
-}
+
 
 .select-box__icon {
     position: absolute;
@@ -1337,6 +1366,7 @@ header .search .parent .child .btn_result {
 .banner .parent_two .right .parent_badges .child span {
     margin-top: 4.5px;
 }
+
 .banner .left {
     width: 225px;
 }
@@ -1851,6 +1881,7 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         border-radius: 1000px;
         color: rgb(255, 255, 255);
     }
+
     header .sear_ish {
         width: 610px;
         height: 74px;
@@ -1862,6 +1893,7 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         left: 27%;
         z-index: 3;
     }
+
     header .sear_toplam {
         width: 990px;
         min-height: 564px;
@@ -1874,6 +1906,7 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         left: 14%;
         z-index: 3;
     }
+
     header .search {
         width: 610px;
         height: 74px;
@@ -1885,6 +1918,7 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         left: 27%;
         z-index: 3;
     }
+
     .top_univer .item {
         display: flex !important;
         justify-content: center;
@@ -1897,11 +1931,13 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         padding: 35px !important;
         margin-right: 0 !important;
     }
+
     .top_univer .carousel .owl-nav {
         position: absolute;
         top: -12px !important;
         left: -76%;
     }
+
     .vacansi .owl-item {
         transition: transform 0.2s;
         width: 250px !important;
@@ -1911,6 +1947,7 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         padding: 25px !important;
         margin-right: 12px;
     }
+
     .vacansi .parent {
         width: 100%;
         min-height: 623px;
@@ -1919,20 +1956,23 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         padding: 71.5px 97px;
         overflow: hidden;
     }
+
     .vacansi .owl-carousel .owl-stage {
         position: relative;
         -ms-touch-action: pan-Y;
         touch-action: manipulation;
         height: 100%;
     }
+
     .top_univer .owl-item {
         width: 364px !important;
         height: 364px !important;
     }
 }
-@media (min-width: 576px){
-.modal-dialog {
-    max-width: 990px !important;
-    margin: 1.75rem auto;
-}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 990px !important;
+        margin: 1.75rem auto;
+    }
 }

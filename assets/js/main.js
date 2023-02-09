@@ -100,25 +100,22 @@ closeIframe.addEventListener("click", () => {
 })
 
 
-let select = document.querySelector(".select-box__current");
-let select2 = document.querySelector(".select-box__list");
-let select3 = document.querySelector(".select-box__icon");
-select.addEventListener("click", () => {
-    if(select2.style.opacity = "0"){
-        select2.style.opacity = "1";
-        select.classList.add("active_select");
-        let select_active = document.querySelector(".active_select");
-        select_active.addEventListener("click", () => {
-            if(select2.style.opacity = "1") {
-                select_active.classList.remove("active_select");
-                select2.style.opacity = "0";
-                select3.style.transform = "translateY(-50%) rotate(360deg)";
-            }else{
-                select2.style.opacity = "1";
-            }
-        })
-    }else{
-        select2.style.opacity = "0";
+
+
+// SELECT SETTINGS
+const selectBoxCurrent = document.querySelector(".select-box__current");
+const selectBoxList = document.querySelector(".select-box__list");
+const selectBoxIcon = document.querySelector(".select-box__icon");
+let k = true;
+selectBoxCurrent.addEventListener("click", (e) => {
+    if(k === false) {
+        selectBoxList.style.opacity = "0";
+        selectBoxIcon.style.transform = "translateY(-50%) rotate(0deg)";
+        k = true;
+    } else {
+        selectBoxIcon.style.transform = "translateY(-50%) rotate(180deg)";
+        selectBoxList.style.opacity = "1";
+        k = false;
     }
 })
-    
+

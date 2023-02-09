@@ -8,6 +8,24 @@
     display: none !important;
 }
 
+.site_up{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: #002D42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+}
+.site_up a{
+    color: #fff;
+}
+.site_up a:hover{
+    color: #fff;
+}
 .container {
     width: 84.4788% !important;
     padding-left: 0px !important;
@@ -16,7 +34,10 @@
 
 header {
     width: 100%;
-
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 9999;
 }
 
 header .parent {
@@ -395,6 +416,7 @@ header .search .parent .child .btn_result {
     padding-top: 20px;
     padding-bottom: 195px;
     margin-bottom: 46px;
+    margin-top: 114px;
 }
 
 .jobs .text_one {
