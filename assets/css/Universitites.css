@@ -10,7 +10,7 @@
     width: 40px;
     height: 40px;
     background-color: #002D42;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     z-index: 99999;

@@ -109,3 +109,13 @@ selectBoxCurrent.addEventListener("click", (e) => {
     }
 })
 
+// SCROLL TOP
+window.onscroll = function() {
+	var e = document.querySelector(".site_up");
+
+	e.style.display = document.documentElement.scrollTop > 300 ? "flex" : "none";
+    e.onclick = (ev) => {
+    	ev.preventDefault();
+        document.documentElement.scrollTop = 0;
+    };
+};

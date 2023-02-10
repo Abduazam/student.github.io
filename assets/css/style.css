@@ -11,7 +11,7 @@
     width: 40px;
     height: 40px;
     background-color: #002D42;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     z-index: 99999;
@@ -38,7 +38,7 @@ header {
     top: 0;
     left: 0;
     background-color: #fff;
-    z-index: 99999;
+    z-index: 699;
 }
 
 header .parent {
@@ -1380,12 +1380,12 @@ header .search .parent .child .btn_result {
 }
 
 .banner .select-box__list::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #b8b4b4;
     border-radius: 10px;
 }
 
 .banner .select-box__list::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #b8b4b4;
 }
 
 /* INFO */

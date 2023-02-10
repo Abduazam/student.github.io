@@ -15,7 +15,7 @@
     width: 40px;
     height: 40px;
     background-color: #002D42;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     z-index: 99999;
@@ -37,7 +37,7 @@ header {
     position: fixed;
     top: 0;
     background-color: #fff;
-    z-index: 9999;
+    z-index: 699;
 }
 
 header .parent {
@@ -1407,7 +1407,7 @@ footer .parent_two .parent_texts .right_texts .text_three span {
 .modal .modal-body {
     position: relative;
     flex: 1 1 auto;
-    padding: 42px 80px 82px 78px !important;
+    padding: 0px 20px 20px 20px !important;
 }
 .modal-header {
     border-bottom: 1px solid transparent !important;
@@ -1502,12 +1502,23 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         margin-bottom: 0;
         color: #002D42;
     }
-
+    .modal .parent_inputs {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+    .modal .modal-body {
+        position: relative;
+        flex: 1 1 auto;
+        padding: 0px 20px 20px 20px !important;
+    }
 }
 
 @media (min-width: 576px) {
     .modal-dialog {
-        max-width: 990px !important;
-        margin: 1.75rem auto;
+        max-width: 750px !important;
+        margin: 1rem auto !important;
     }
 }
