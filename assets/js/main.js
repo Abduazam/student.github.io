@@ -102,28 +102,6 @@ closeIframe.addEventListener("click", () => {
 
 
 
-// SELECT SETTINGS
-const selectBoxCurrent = document.querySelector(".select-box__current");
-const selectBoxList = document.querySelector(".select-box__list");
-const selectBoxIcon = document.querySelector(".select-box__icon");
-const selectBoxText = document.querySelector(".select-box__input-text")
-let k = true;
-selectBoxCurrent.addEventListener("click", (e) => {
-    if(k === false) {
-        selectBoxList.style.opacity = "0";
-        selectBoxIcon.style.transform = "translateY(-50%) rotate(0deg)";
-        selectBoxText.style.borderRadius = "1000px";
-        
-        k = true;
-    } else {
-        selectBoxIcon.style.transform = "translateY(-50%) rotate(180deg)";
-        selectBoxList.style.opacity = "1";
-        selectBoxText.style.borderRadius = "30px 30px 0px 0px";
-        
-        k = false;
-    }
-})
-
 
 
 // SCROLL TOP

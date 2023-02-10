@@ -1214,127 +1214,29 @@ header .search .parent .child .btn_result {
     gap: 44px;
 }
 
-.select-box {
-    position: relative;
-    display: block;
-    width: 160px;
+.banner .btn_dropdown{
+    width: 160px !important;
     font-family: "DM Sans", sans-serif;
-    background: #FFFFFF;
-    border-radius: 1000px;
+    background: #FFFFFF !important;
+    border-radius: 1000px !important;
     font-style: normal;
+    height: 53px;
     font-weight: 500;
     font-size: 16px;
     line-height: 21px;
     /* identical to box height */
     margin-bottom: 0;
-
-    color: #002D42;
-}
-
-
-
-.select-box__current {
-    position: relative;
-    box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    outline: none;
-}
-
-.select-box__current:focus+.select-box__list {
-    opacity: 1;
-    -webkit-animation-name: none;
-    animation-name: none;
-}
-
-.select-box__current:focus+.select-box__list .select-box__option {
-    cursor: pointer;
-}
-
-
-
-.select-box__icon {
-    position: absolute;
-    top: 50%;
-    right: 15px;
-    transform: translateY(-50%);
-    width: 20px;
-    opacity: 0.3;
-    transition: 0.2s ease;
-}
-
-.select-box__value {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none !important;
+    color: #002D42 !important;
 }
 
-.select-box__input {
-    display: none;
+.banner .dropdown-menu{
+    border-radius: 25px !important;
 }
 
-.select-box__input:checked+.select-box__input-text {
-    display: block;
-}
-
-.select-box__input-text {
-    display: none;
-    width: 100%;
-    margin: 0;
-    padding: 16.5px 20px;
-    background-color: #fff;
-    border-radius: 1000px;
-}
-
-.select-box__list {
-    position: absolute;
-    width: 100%;
-    height: 200px;
-    overflow-y: scroll;
-    padding: 0;
-    list-style: none;
-    opacity: 0;
-    -webkit-animation-name: HideList;
-    animation-name: HideList;
-    -webkit-animation-duration: 0.5s;
-    animation-duration: 0.5s;
-    -webkit-animation-delay: 0.5s;
-    animation-delay: 0.5s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    -webkit-animation-timing-function: step-start;
-    animation-timing-function: step-start;
-    box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.1);
-}
-
-.select-box__option {
-    display: block;
-    padding: 15px;
-    background-color: #fff;
-}
-
-.select-box__option:hover,
-.select-box__option:focus {
-    color: #546c84;
-    background-color: #fbfbfb;
-}
-
-@-webkit-keyframes HideList {
-    from {
-        transform: scaleY(1);
-    }
-
-    to {
-        transform: scaleY(0);
-    }
-}
-
-@keyframes HideList {
-    from {
-        transform: scaleY(1);
-    }
-
-    to {
-        transform: scaleY(0);
-    }
-}
 
 .banner .parent_two .right {
     width: 100%;
