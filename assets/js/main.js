@@ -107,8 +107,10 @@ closeIframe.addEventListener("click", () => {
 // SCROLL TOP
 window.onscroll = function() {
 	var e = document.querySelector(".site_up");
-
+    var header = document.querySelector("header .parent")
 	e.style.display = document.documentElement.scrollTop > 300 ? "flex" : "none";
+	header.style.padding = document.documentElement.scrollTop > 50 ? "10px" : "20px";
+    
     e.onclick = (ev) => {
     	ev.preventDefault();
         document.documentElement.scrollTop = 0;
