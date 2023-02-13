@@ -764,6 +764,7 @@ header .search .parent .child .btn_result {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .jobs .parent_threee .left {
@@ -907,9 +908,6 @@ input[type=number] {
 .jobs .right {
     position: relative;
     width: 728px;
-    bottom: 0;
-    height: 1000px;
-    overflow: hidden;
 }
 
 .jobs .right .text_result {
@@ -1670,7 +1668,7 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         border-top-left-radius: 8px;
         border-bottom-left-radius: 8px;
         display: flex;
-        padding: 18px 43px 18px 18px;
+        padding: 18px 0px 18px 18px;
     }
     .jobs .right .parent_right {
         width: 607px;
