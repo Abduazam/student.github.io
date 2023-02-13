@@ -1,3 +1,26 @@
+const nextIcon = '<img src="./assets/images/left_icon2.svg" alt="right">';
+const prevIcon = '<img src="./assets/images/right_icon2.svg" alt="left">';
+$('.team .owl-carousel').owlCarousel({
+    loop:true,
+    autoplay: true,
+    nav: true,
+    navText: [
+    prevIcon,
+    nextIcon
+  ],
+    responsive:{
+        0:{
+            items:4
+        },
+        1000:{
+            items:3
+        },
+        1500:{
+            items:4
+        }
+    }
+  })
+
 // SELECT SETTINGS
 const selectBoxCurrent = document.querySelector(".select-box__current");
 const selectBoxList = document.querySelector(".select-box__list");
