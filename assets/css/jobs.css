@@ -8,7 +8,7 @@
     display: none !important;
 }
 
-.site_up{
+.site_up {
     position: fixed;
     right: 30px;
     bottom: 30px;
@@ -20,12 +20,15 @@
     align-items: center;
     z-index: 99999;
 }
-.site_up a{
+
+.site_up a {
     color: #fff;
 }
-.site_up a:hover{
+
+.site_up a:hover {
     color: #fff;
 }
+
 .container {
     width: 84.4788% !important;
     padding-left: 0px !important;
@@ -480,10 +483,96 @@ header .search .parent .child .btn_result {
     line-height: 21px;
     /* identical to box height */
     margin-bottom: 0;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    color: #002D42;
+}
+
+.jobs .select-box__list::-webkit-scrollbar {
+    width: 5px;
+}
+
+.jobs .select-box__list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.jobs .select-box__list::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.jobs .select-box__list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.select {
+    position: relative;
+    min-width: 160px;
+}
+
+.select svg {
+    position: absolute;
+    right: 12px;
+    top: calc(50% - 3px);
+    width: 10px;
+    height: 6px;
+    stroke-width: 2px;
+    stroke: #9098a9;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    pointer-events: none;
+}
+
+.select select {
+    -webkit-appearance: none;
+    padding: 0px 5px 5px 0px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
 
     color: #002D42;
 
+    transition: all 150ms ease;
 }
+
+.select select:required:invalid {
+    color: #5a667f;
+}
+
+.select select option {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    padding: 5px;
+    margin-top: 10px;
+    color: #012E42;
+
+}
+
+.select select option[value=""][disabled] {
+    display: none;
+}
+
+.select select:focus {
+    outline: none;
+}
+
+
 
 .jobs .parent_one .left .child2 {
     width: 160px;
@@ -814,15 +903,21 @@ input[type=number] {
     color: #002D42;
 }
 
+.jobs .right {
+    position: relative;
+    width: 728px;
+}
+
 .jobs .right .text_result {
     margin-left: 16px;
 }
 
 .jobs .right .parent_right {
-    width: 100%;
+    width: 728px;
     height: 750px;
     background: #FFFFFF;
     border-radius: 20px;
+    position: relative;
 }
 
 .jobs .right .flex_right {
@@ -1341,12 +1436,40 @@ footer .parent_two .parent_texts .right_texts .text_three span {
     line-height: 21px;
     /* identical to box height */
     margin-bottom: 0;
-    color: #002D42;
+    color: #5A667F;
     width: 100%;
     height: 21px;
     background-color: transparent;
     border: none;
     outline: none;
+}
+
+.modal .textarea {
+    width: 100%;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    background-color: transparent;
+    border: none;
+    color: #5A667F;
+    outline: none;
+}
+
+.modal .file {
+    font-family: 'DM Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    background-color: transparent !important;
+    border: none;
+    outline: none;
+    color: #002D42;
 }
 
 .modal .parent_inputs .input::placeholder {
@@ -1393,7 +1516,7 @@ footer .parent_two .parent_texts .right_texts .text_three span {
     height: 63px;
     background: #002D42;
     border-radius: 7px;
-    font-family: 'DM Sans',sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -1401,17 +1524,21 @@ footer .parent_two .parent_texts .right_texts .text_three span {
     text-align: center;
     color: #FFFFFF;
 }
-.modal .btn_modal:hover{
+
+.modal .btn_modal:hover {
     color: #FFFFFF;
 }
+
 .modal .modal-body {
     position: relative;
     flex: 1 1 auto;
     padding: 0px 20px 20px 20px !important;
 }
+
 .modal-header {
     border-bottom: 1px solid transparent !important;
 }
+
 .modal-content {
     position: relative;
     display: flex;
@@ -1420,10 +1547,11 @@ footer .parent_two .parent_texts .right_texts .text_three span {
     pointer-events: auto;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.2);
+    border: 1px solid rgba(0, 0, 0, .2);
     border-radius: 22px !important;
     outline: 0;
 }
+
 @media screen and (min-width: 1200px) and (max-width: 1500px) {
 
     .container,
@@ -1502,6 +1630,7 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         margin-bottom: 0;
         color: #002D42;
     }
+
     .modal .parent_inputs {
         width: 100%;
         display: flex;
@@ -1509,6 +1638,7 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         gap: 10px;
         margin-bottom: 30px;
     }
+
     .modal .modal-body {
         position: relative;
         flex: 1 1 auto;

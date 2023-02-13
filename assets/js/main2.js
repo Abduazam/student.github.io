@@ -1,3 +1,21 @@
+// SELECT SETTINGS
+const selectBoxCurrent = document.querySelector(".select-box__current");
+const selectBoxList = document.querySelector(".select-box__list");
+const selectBoxIcon = document.querySelector(".select-box__icon");
+let k = true;
+selectBoxCurrent.addEventListener("click", (e) => {
+    if(k === false) {
+        selectBoxList.style.opacity = "0";
+        selectBoxIcon.style.transform = "translateY(-50%) rotate(0deg)";
+        k = true;
+    } else {
+        selectBoxIcon.style.transform = "translateY(-50%) rotate(180deg)";
+        selectBoxList.style.opacity = "1";
+        k = false;
+    }
+})
+
+
 let rangeMin = 100;
 const range = document.querySelector(".range-selected");
 const rangeInput = document.querySelectorAll(".range-input input");
@@ -104,3 +122,5 @@ window.onscroll = function() {
         document.documentElement.scrollTop = 0;
     };
 };
+
+

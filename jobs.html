@@ -19,16 +19,16 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    
+
     <title>Document</title>
 </head>
 
 <body>
-    
+
     <div class="site_up ">
         <a href="#" style="text-decoration: none;"><i class="fa-sharp fa-solid fa-arrow-up"></i></a>
     </div>
-    
+
     <!-- header start -->
     <header>
         <div class="container">
@@ -279,12 +279,25 @@
                         <p class="text_two">Поиск по названиям</p>
                         <div class="flex_element">
                             <img src="./assets/images/lupa.svg" alt="">
-                            <p class="text_lupa">Айтишник</p>
+                            <input class="text_lupa" placeholder="Айтишник" />
                         </div>
                     </div>
                     <div class="child2">
                         <p class="text_two">Регион</p>
-                        <p class="text_lupa">Самарканд</p>
+                        <label class="select" for="slct">
+                            <select id="slct" required="required">
+                              <option value="" disabled="disabled" selected="selected">Самарканд</option>
+                              <option value="#">One</option>
+                              <option value="#">Two</option>
+                              <option value="#">Three</option>
+                              <option value="#">Four</option>
+                              <option value="#">Five</option>
+                              <option value="#">Six</option>
+                              <option value="#">Seven</option>
+                            </select>
+                            <svg>
+                            </svg>
+                        </label>
                     </div>
                     <div class="child3">
                         <div class="flex">
@@ -311,16 +324,56 @@
                     <div class="child4">
                         <div class="flexx">
                             <p class="text_two">Опыт работы</p>
-                            <p class="text_lupa">Без опыта</p>
+                            <label class="select" for="slct">
+                                <select id="slct" required="required">
+                                  <option value="" disabled="disabled" selected="selected">Без опыта</option>
+                                  <option value="#">One</option>
+                                  <option value="#">Two</option>
+                                  <option value="#">Three</option>
+                                  <option value="#">Four</option>
+                                  <option value="#">Five</option>
+                                  <option value="#">Six</option>
+                                  <option value="#">Seven</option>
+                                </select>
+                                <svg>
+                                </svg>
+                            </label>
+                             
                         </div>
                         <div class="flexx">
                             <p class="text_two">Курс обучения</p>
-                            <p class="text_lupa">Экономика</p>
+                            <label class="select" for="slct">
+                                <select id="slct" required="required">
+                                  <option value="" disabled="disabled" selected="selected">Экономика</option>
+                                  <option value="#">One</option>
+                                  <option value="#">Two</option>
+                                  <option value="#">Three</option>
+                                  <option value="#">Four</option>
+                                  <option value="#">Five</option>
+                                  <option value="#">Six</option>
+                                  <option value="#">Seven</option>
+                                </select>
+                                <svg>
+                                </svg>
+                            </label>
                         </div>
                     </div>
                     <div class="child5">
                         <p class="text_two">Гендер</p>
-                        <p class="text_lupa">Все</p>
+                        <label class="select" for="slct">
+                            <select id="slct" required="required">
+                              <option value="" disabled="disabled" selected="selected">Все</option>
+                              <option value="#">One</option>
+                              <option value="#">Two</option>
+                              <option value="#">Three</option>
+                              <option value="#">Four</option>
+                              <option value="#">Five</option>
+                              <option value="#">Six</option>
+                              <option value="#">Seven</option>
+                            </select>
+                            <svg>
+                            </svg>
+                        </label>
                     </div>
                 </div>
                 <a href="" style="text-decoration: none;">
@@ -684,34 +737,83 @@
                         </div>
                         <div class="inputs">
                             <p class="text_input">День рождения</p>
-                            <input type="text" class="input" placeholder="мм/дд/гг">
+                            <input type="date" class="input" placeholder="мм/дд/гг">
                         </div>
                         <div class="inputs">
                             <p class="text_input">Выберите регион</p>
-                            <input type="text" class="input" placeholder="Регион">
+                            <label class="select" for="slct">
+                                <select id="slct" required="required">
+                                  <option value="" disabled="disabled" selected="selected">Регион</option>
+                                  <option value="#">One</option>
+                                  <option value="#">Two</option>
+                                  <option value="#">Three</option>
+                                  <option value="#">Four</option>
+                                  <option value="#">Five</option>
+                                  <option value="#">Six</option>
+                                  <option value="#">Seven</option>
+                                </select>
+                                <svg>
+                                </svg>
+                            </label>
                         </div>
                         <div class="inputs">
                             <p class="text_input">Выберите пол</p>
-                            <input type="text" class="input" placeholder="Пол">
+                            <label class="select" for="slct">
+                                <select id="slct" required="required">
+                                  <option value="" disabled="disabled" selected="selected">Пол</option>
+                                  <option value="#">One</option>
+                                  <option value="#">Two</option>
+                                  <option value="#">Three</option>
+                                  <option value="#">Four</option>
+                                  <option value="#">Five</option>
+                                  <option value="#">Six</option>
+                                  <option value="#">Seven</option>
+                                </select>
+                                <svg>
+                                </svg>
+                            </label>
                         </div>
                         <div class="inputs">
                             <p class="text_input">Направление</p>
-                            <input type="text" class="input" placeholder="Выберите">
+                            <label class="select" for="slct">
+                                <select id="slct" required="required">
+                                  <option value="" disabled="disabled" selected="selected">Выберите</option>
+                                  <option value="#">One</option>
+                                  <option value="#">Two</option>
+                                  <option value="#">Three</option>
+                                  <option value="#">Four</option>
+                                  <option value="#">Five</option>
+                                  <option value="#">Six</option>
+                                  <option value="#">Seven</option>
+                                </select>
+                                <svg>
+                                </svg>
+                            </label>
                         </div>
                         <div class="inputs">
                             <p class="text_input">Доп инвформации</p>
-                            <input type="text" class="input" placeholder="Пол">
+                            <textarea name="" id="" cols="10" rows="1" placeholder="Пол" class="textarea"></textarea>
                         </div>
                         <div class="inputs">
                             <p class="text_input">Выберите язык</p>
-                            <input type="text" class="input" placeholder="не выьран">
+                            <label class="select" for="slct">
+                                <select id="slct" required="required">
+                                  <option value="" disabled="disabled" selected="selected">Выберите</option>
+                                  <option value="#">One</option>
+                                  <option value="#">Two</option>
+                                  <option value="#">Three</option>
+                                  <option value="#">Four</option>
+                                  <option value="#">Five</option>
+                                  <option value="#">Six</option>
+                                  <option value="#">Seven</option>
+                                </select>
+                                <svg>
+                                </svg>
+                            </label>
                         </div>
                         <div class="input_dowland">
                             <div class="flex">
-                                <img src="./assets/images/dowland.svg" alt="">
-                                <p class="text_dowland">
-                                    Загрузите файл
-                                </p>
+                                <input type="file" placeholder="Загрузите файл" class="file">
                             </div>
                         </div>
                     </div>
