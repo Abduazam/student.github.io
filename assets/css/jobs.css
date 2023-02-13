@@ -420,6 +420,7 @@ header .search .parent .child .btn_result {
     padding-bottom: 195px;
     margin-bottom: 46px;
     margin-top: 114px;
+    min-height: 100vh;
 }
 
 .jobs .text_one {
@@ -906,6 +907,9 @@ input[type=number] {
 .jobs .right {
     position: relative;
     width: 728px;
+    bottom: 0;
+    height: 1000px;
+    overflow: hidden;
 }
 
 .jobs .right .text_result {
@@ -914,12 +918,28 @@ input[type=number] {
 
 .jobs .right .parent_right {
     width: 728px;
-    height: 750px;
+    height: 600px;
     background: #FFFFFF;
     border-radius: 20px;
-    position: relative;
+    position: fixed;
+    overflow-y: scroll;
+}
+.jobs .right .parent_right::-webkit-scrollbar {
+    width: 5px;
 }
 
+.jobs .right .parent_right::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.jobs .right .parent_right::-webkit-scrollbar-thumb {
+    background: #b8b4b4;
+    border-radius: 10px;
+}
+
+.jobs .right .parent_right::-webkit-scrollbar-thumb:hover {
+    background: #b8b4b4;
+}
 .jobs .right .flex_right {
     display: flex;
     width: 100%;
@@ -1643,6 +1663,25 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         position: relative;
         flex: 1 1 auto;
         padding: 0px 20px 20px 20px !important;
+    }
+    .jobs .parent_one .left {
+        width: calc(100% - 155px);
+        background: #FFFFFF;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        display: flex;
+        padding: 18px 43px 18px 18px;
+    }
+    .jobs .right .parent_right {
+        width: 607px;
+        height: 275px;
+        background: #FFFFFF;
+        border-radius: 20px;
+        position: fixed;
+        overflow-y: scroll;
+    }
+    .jobs .child4 .flexx{
+        margin-left: 12px;
     }
 }
 

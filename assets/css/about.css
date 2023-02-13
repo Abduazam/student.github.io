@@ -451,7 +451,7 @@ header .search .parent .child .btn_result {
     width: 100%;
     min-height: 353px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 80px;
 }
 
@@ -496,7 +496,7 @@ header .search .parent .child .btn_result {
     width: 100%;
     margin-bottom: 8px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .about .parent_two .right {
