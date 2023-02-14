@@ -714,7 +714,7 @@ header .search .parent .child .btn_result {
 }
 
 .jobs .parent_one .child5 {
-    width: 160px;
+    width: 300px;
 }
 
 .jobs .parent_one .btn_one {
@@ -916,12 +916,12 @@ input[type=number] {
 
 .jobs .right .parent_right {
     width: 728px;
-    height: 600px;
+    height: 768px;
     background: #FFFFFF;
     border-radius: 20px;
-    position: fixed;
-    overflow-y: scroll;
+    position: sticky;
 }
+
 .jobs .right .parent_right::-webkit-scrollbar {
     width: 5px;
 }
@@ -938,6 +938,7 @@ input[type=number] {
 .jobs .right .parent_right::-webkit-scrollbar-thumb:hover {
     background: #b8b4b4;
 }
+
 .jobs .right .flex_right {
     display: flex;
     width: 100%;
@@ -1202,6 +1203,100 @@ input[type=number] {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+.jobs .select {
+    position: relative;
+    display: block;
+    min-width: 160px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.jobs .select__head {
+    width: 100%;
+    max-width: 100%;
+    font-family: 'DM Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #002D42;
+
+    cursor: pointer;
+}
+
+
+.jobs .select__head.open::after {
+    transform: translateY(50%) rotate(180deg);
+}
+
+.jobs .select__list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top: 5px;
+    max-height: 205px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #424348;
+    scrollbar-color: dark;
+    scrollbar-width: thin;
+    overscroll-behavior: contain;
+}
+
+.jobs .select__list::-webkit-scrollbar {
+    width: 7px;
+    background-color: #F8F9FA;
+    padding: 5px;
+}
+
+.jobs .select__list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #D9D9D9;
+}
+
+.jobs .select__list .select__item {
+    position: relative;
+    border-top: 1px solid rgba(224, 229, 231, 0.5);
+    padding: 10px 15px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.jobs .select__list .select__item:hover {
+    background-color: rgba(224, 229, 231, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* FOOTER */
 
 footer {
@@ -1212,6 +1307,7 @@ footer {
 footer .parent_one {
     width: 100%;
     display: flex;
+    position: relative;
     justify-content: space-between;
 }
 
@@ -1477,7 +1573,7 @@ footer .parent_two .parent_texts .right_texts .text_three span {
 }
 
 .modal .file {
-    font-family: 'DM Sans',sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -1569,6 +1665,82 @@ footer .parent_two .parent_texts .right_texts .text_three span {
     border-radius: 22px !important;
     outline: 0;
 }
+
+.modal .select {
+    position: relative;
+    display: block;
+    min-width: 160px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.modal .select__head {
+    width: 100%;
+    max-width: 100%;
+    font-family: 'DM Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #5A667F;
+
+    cursor: pointer;
+}
+
+
+.modal .select__head.open::after {
+    transform: translateY(50%) rotate(180deg);
+}
+
+.modal .select__list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top: 5px;
+    max-height: 205px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #424348;
+    scrollbar-color: dark;
+    scrollbar-width: thin;
+    overscroll-behavior: contain;
+}
+
+.modal .select__list::-webkit-scrollbar {
+    width: 7px;
+    background-color: #F8F9FA;
+    padding: 5px;
+}
+
+.modal .select__list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #D9D9D9;
+}
+
+.modal .select__list .select__item {
+    position: relative;
+    border-top: 1px solid rgba(224, 229, 231, 0.5);
+    padding: 10px 15px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.modal .select__list .select__item:hover {
+    background-color: rgba(224, 229, 231, 0.5);
+}
+
+
+
 
 @media screen and (min-width: 1200px) and (max-width: 1500px) {
 
@@ -1662,6 +1834,7 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         flex: 1 1 auto;
         padding: 0px 20px 20px 20px !important;
     }
+
     .jobs .parent_one .left {
         width: calc(100% - 155px);
         background: #FFFFFF;
@@ -1670,6 +1843,7 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         display: flex;
         padding: 18px 0px 18px 18px;
     }
+
     .jobs .right .parent_right {
         width: 607px;
         height: 275px;
@@ -1678,7 +1852,8 @@ footer .parent_two .parent_texts .right_texts .text_three span {
         position: fixed;
         overflow-y: scroll;
     }
-    .jobs .child4 .flexx{
+
+    .jobs .child4 .flexx {
         margin-left: 12px;
     }
 }
