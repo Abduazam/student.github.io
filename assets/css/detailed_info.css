@@ -46,6 +46,7 @@ header .parent {
     padding: 20px 0px;
     display: flex;
     justify-content: space-between;
+    transition: 0.5s ease;
 }
 
 
