@@ -1,0 +1,270 @@
+nav {
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.label_one {
+    display: flex !important;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.label {
+    color: #d9d9e9;
+    font-size: 1.2em;
+    font-variant: "DM Sans", sans-serif;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+
+}
+
+.label .input {
+    width: 15px;
+    height: 15px;
+    border-radius: 1px;
+    margin-right: 8px;
+}
+
+.input[type=checkbox]+.label {
+    color: #d9d9e9;
+    font-size: .9rem;
+}
+
+.input[type=checkbox]:checked+.label {
+    color: #233a95;
+    font-style: normal;
+    font-size: .9rem;
+
+}
+
+
+
+.label::after {
+    float: right;
+    right: 10%;
+    content: "+";
+}
+
+.slide {
+    clear: both;
+    width: 100%;
+    height: 0px;
+    margin-top: 12px;
+    overflow: hidden;
+    transition: height .4s ease;
+    list-style-type: none;
+}
+
+.slide li {
+    margin-bottom: 10px;
+    list-style-type: none;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+.input_two[type=checkbox]+.label_two {
+    color: #d9d9e9;
+    font-size: .9rem;
+
+    font-family: "DM Sans", sans-serif;
+
+}
+
+.input_two[type=checkbox]:checked+.label_two {
+    color: #233a95;
+    font-size: .9rem;
+
+    font-style: normal;
+    font-family: "DM Sans", sans-serif;
+}
+
+#touch {
+    position: absolute;
+    opacity: 0;
+    right: -13px;
+    top: 0px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#touch:checked+.slide {
+    height: auto;
+}
+
+.parent_price {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.parent_price .text_one {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    margin-bottom: 25px;
+
+    color: #002D42;
+
+}
+
+
+.range-slider {
+    height: 5px;
+    position: relative;
+    background-color: #e1e9f6;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+.range-selected {
+    height: 100%;
+    left: 30%;
+    right: 30%;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #002D42;
+}
+
+.range-input {
+    position: relative;
+    top: -18px;
+}
+
+.range-input input {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    top: -7px;
+    background: none;
+    pointer-events: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.range-input input::-webkit-slider-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 3px solid #002D42;
+    background-color: #fff;
+    pointer-events: auto;
+    -webkit-appearance: none;
+}
+
+.range-input input::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 3px solid #002D42;
+    background-color: #fff;
+    pointer-events: auto;
+    -moz-appearance: none;
+}
+
+.range-price {
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+
+}
+
+.range-price .input2 {
+    width: 51px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #002D42;
+}
+
+
+
+.range-price .input1 {
+    width: 45px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 17px;
+    color: #002D42;
+}
+
+.range-price .input {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height */
+    margin: 0px 10px 0px 10px;
+
+    color: #002D42;
+}
+
+.parent_price .flex {
+    display: flex;
+}
+
+.parent_price label {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height */
+    margin-bottom: 0;
+    margin-left: -16px;
+    color: #002D42;
+}
+
+.parent_price .parent_status {
+    display: flex;
+    width: 100%;
+    margin-bottom: 12px;
+    gap: 25px;
+}
+
+.parent_price .parent_brands {
+    display: flex;
+    width: 100%;
+    margin-bottom: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parent_price .parent_brands .flexx {
+    display: flex;
+    width: 100%;
+    gap: 25px;
+}
+
+.parent_price .parent_brands .text_brands {
+    font-family: 'DM Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height */
+    margin-bottom: 0;
+
+    color: #002D42;
+
+    opacity: 0.6;
+}
