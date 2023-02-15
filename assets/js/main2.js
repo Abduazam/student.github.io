@@ -87,3 +87,11 @@ window.onscroll = function() {
         document.documentElement.scrollTop = 0;
     };
 };
+
+// BTN MORE
+let btn_more = document.querySelector(".btn_more");
+btn_more.addEventListener("click", () => {
+    let parent_card = document.querySelector(".parent_cards");
+    parent_card.style.height = "auto";
+    btn_more.classList.add("d-none");
+})
