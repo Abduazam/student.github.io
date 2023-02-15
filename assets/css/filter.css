@@ -2,6 +2,10 @@ nav {
     width: 100%;
     position: relative;
     margin-bottom: 30px;
+    height: 210px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: 0px !important;
 }
 
 .label_one {
@@ -38,6 +42,9 @@ nav {
     font-size: .9rem;
 
 }
+nav::-webkit-scrollbar {
+    width: 0px;
+}
 
 
 
@@ -58,6 +65,54 @@ nav {
 }
 
 .slide li {
+    margin-bottom: 10px;
+    list-style-type: none;
+    font-family: "DM Sans", sans-serif;
+
+}
+.slide2 {
+    clear: both;
+    width: 100%;
+    height: 0px;
+    margin-top: 12px;
+    overflow: hidden;
+    transition: height .4s ease;
+    list-style-type: none;
+}
+
+.slide2 li {
+    margin-bottom: 10px;
+    list-style-type: none;
+    font-family: "DM Sans", sans-serif;
+
+}
+.slide3 {
+    clear: both;
+    width: 100%;
+    height: 0px;
+    margin-top: 12px;
+    overflow: hidden;
+    transition: height .4s ease;
+    list-style-type: none;
+}
+
+.slide3 li {
+    margin-bottom: 10px;
+    list-style-type: none;
+    font-family: "DM Sans", sans-serif;
+
+}
+.slide4 {
+    clear: both;
+    width: 100%;
+    height: 0px;
+    margin-top: 12px;
+    overflow: hidden;
+    transition: height .4s ease;
+    list-style-type: none;
+}
+
+.slide4 li {
     margin-bottom: 10px;
     list-style-type: none;
     font-family: "DM Sans", sans-serif;
@@ -93,6 +148,48 @@ nav {
 #touch:checked+.slide {
     height: auto;
 }
+#touch2 {
+    position: absolute;
+    opacity: 0;
+    right: -13px;
+    top: 40px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#touch2:checked+.slide2 {
+    height: auto;
+}
+
+#touch3 {
+    position: absolute;
+    opacity: 0;
+    right: -13px;
+    top: 90px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#touch3:checked+.slide3 {
+    height: auto;
+}
+
+#touch4 {
+    position: absolute;
+    opacity: 0;
+    right: -13px;
+    top: 140px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#touch4:checked+.slide4 {
+    height: auto;
+}
+
 
 .parent_price {
     width: 100%;
