@@ -6,6 +6,7 @@ nav {
     overflow-y: scroll;
     overflow-x: hidden;
     scrollbar-width: 0px !important;
+    transition: all 0.5 ease;
 }
 
 .label_one {
@@ -60,9 +61,10 @@ nav::-webkit-scrollbar {
     height: 0px;
     margin-top: 12px;
     overflow: hidden;
-    transition: height .4s ease;
+    transition: height 0.5s ease;
     list-style-type: none;
 }
+
 
 .slide li {
     margin-bottom: 10px;
@@ -76,8 +78,9 @@ nav::-webkit-scrollbar {
     height: 0px;
     margin-top: 12px;
     overflow: hidden;
-    transition: height .4s ease;
     list-style-type: none;
+    transition: height 0.5s ease;
+    
 }
 
 .slide2 li {
@@ -92,8 +95,9 @@ nav::-webkit-scrollbar {
     height: 0px;
     margin-top: 12px;
     overflow: hidden;
-    transition: height .4s ease;
     list-style-type: none;
+    transition: height 0.5s ease;
+    
 }
 
 .slide3 li {
@@ -108,8 +112,9 @@ nav::-webkit-scrollbar {
     height: 0px;
     margin-top: 12px;
     overflow: hidden;
-    transition: height .4s ease;
     list-style-type: none;
+    transition: height 0.5s ease;
+    
 }
 
 .slide4 li {
@@ -143,10 +148,11 @@ nav::-webkit-scrollbar {
     width: 40px;
     height: 40px;
     cursor: pointer;
+    transition: 0.5s ease;
 }
 
 #touch:checked+.slide {
-    height: auto;
+    height: 121px;
 }
 #touch2 {
     position: absolute;
@@ -159,7 +165,9 @@ nav::-webkit-scrollbar {
 }
 
 #touch2:checked+.slide2 {
-    height: auto;
+    height: 121px;
+
+    
 }
 
 #touch3 {
@@ -173,7 +181,9 @@ nav::-webkit-scrollbar {
 }
 
 #touch3:checked+.slide3 {
-    height: auto;
+    height: 121px;
+
+    
 }
 
 #touch4 {
@@ -187,8 +197,12 @@ nav::-webkit-scrollbar {
 }
 
 #touch4:checked+.slide4 {
-    height: auto;
+    height: 121px;
+
+    
+    
 }
+
 
 
 .parent_price {
